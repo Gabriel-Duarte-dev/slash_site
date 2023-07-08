@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { BsDiscord, BsTiktok } from "react-icons/bs";
 
 import gangsta from "@/assets/gangsta.png";
 import man from "@/assets/Tale1.webp";
@@ -10,7 +12,7 @@ export const PresentationSection = () => {
   return (
     <>
       <WaveSVG className="w-screen fill-white drop-shadow-xl" />
-      <section className="w-screen bg-white z-10 flex justify-center items-center gap-4">
+      <section className="w-screen bg-white z-10 flex justify-center items-center gap-4 pb-40">
         <figure className="w-60">
           <img
             src={gangsta}

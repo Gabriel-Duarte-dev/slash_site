@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
+import { Footer } from "../Footer/footer";
 import { Header } from "../Header/header";
 
 export const Layout = () => {
@@ -10,6 +11,7 @@ export const Layout = () => {
       <div className="w-full sm:max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1440px]">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 };
