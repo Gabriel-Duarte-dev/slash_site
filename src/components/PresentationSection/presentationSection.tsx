@@ -1,6 +1,4 @@
 import React from "react";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { BsDiscord, BsTiktok } from "react-icons/bs";
 
 import gangsta from "@/assets/gangsta.png";
 import man from "@/assets/Tale1.webp";
