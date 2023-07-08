@@ -33,7 +33,7 @@ export const Header = () => {
         <img src={slashLogo} alt="Imagem de uma caveira em desenho" className="w-full h-full" />
       </figure>
 
-      <nav>
+      <nav className="sm:hidden lg:block">
         <ul className="flex items-center gap-7 list-none">
           <li>
             <CustomButton value="DISCORD" Icon={BsDiscord} />
