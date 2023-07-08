@@ -3,6 +3,8 @@ import { BsDiscord, BsCart3 } from "react-icons/bs";
 
 import slashLogo from "@/assets/slash_sem_fundo.png";
 
+import { MenuMobile } from "../MenuMobile/menuMobile";
+
 interface CustomButtonProps {
   value: string;
   Icon?: React.ElementType;
@@ -46,6 +48,8 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
+
+      <MenuMobile />
     </header>
   );
 };

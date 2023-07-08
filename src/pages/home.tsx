@@ -8,10 +8,10 @@ export const Home = () => {
     <main className="w-full h-full flex flex-col justify-center items-center relative">
       <section className="w-full mt-40 flex flex-col items-center justify-center">
         <div className="flex flex-col items-center">
-          <figure className="sm:w-[17.5rem] lg:w-[39.625rem]">
+          <figure className="sm:w-[17.5rem] md:w-[39.625rem]">
             <img src={slashBanner} alt="Logo Slash com uma caveira no meio" className="w-full" />
           </figure>
-          <h1 className="sm:text-base lg:text-4xl text-black font-extrabold opacity-5 mt-8">O MELHOR ROLEPLAY QUE EXISTE</h1>
+          <h1 className="sm:text-base md:text-4xl text-black font-extrabold opacity-20 mt-8">O MELHOR ROLEPLAY QUE EXISTE</h1>
         </div>
       </section>
 
