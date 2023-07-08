@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BsDiscord, BsCart3 } from "react-icons/bs";
 
 import slashLogo from "@/assets/slash_sem_fundo.png";
+import { useDeviceSize } from "@/hooks/useDeviceSize.ts";
 
 import { MenuMobile } from "../MenuMobile/menuMobile";
 
@@ -29,6 +30,8 @@ const CustomButton = ({ value, Icon }: CustomButtonProps) => {
 };
 
 export const Header = () => {
+  const { isMobile } = useDeviceSize();
+
   return (
     <header className="w-screen flex items-center justify-between shadow-md py-3 px-8 bg-white">
       <figure className="w-20">
@@ -49,7 +52,7 @@ export const Header = () => {
         </ul>
       </nav>
 
-      <MenuMobile />
+      {isMobile && <MenuMobile />}
     </header>
   );
 };
